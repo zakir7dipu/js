@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form design</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <form action="">
+        <h2 class="text-center text-capitalize">Registar now</h2>
+        <div class="from-row">
+            <div class="from-group">
+                <label for="fname">First name</label>
+                <input type="text" id="fname" required>
+                <p class="error"></p>
+            </div>
+
+            <div class="from-group">
+                <label for="lname">Last name</label>
+                <input type="text" id="lname" required>
+                <p class="error"></p>
+            </div>
+        </div>
+
+        <div class="from-row">
+            <div class="from-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <p class="error"></p>
+            </div>
+        </div>
+
+        <div class="from-row">
+            <div class="from-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+                <p class="error"></p>
+            </div>
+
+            <div class="from-group">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" required>
+                <p class="error"></p>
+            </div>
+        </div>
+        <div class="from-row">
+            <button type="submit" id="saveBtn" class="btn">Save</button>
+        </div>
+    </form>
+</div>
+
+<div class="users">
+    <table>
+        <thead>
+        <tr>
+            <th>Full name</th>
+            <th>Email</th>
+            <th>Password</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td colspan="3">No data inserted</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<!--<script src="./class1.js"></script>-->
+<!--<script src="./class2.js"></script>-->
+<!--<script src="./class3.js"></script>-->
+<script src="./class4.js"></script>
+</body>
+</html>
